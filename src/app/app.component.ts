@@ -7,7 +7,7 @@ import { MenuItem } from './menu-item';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Chirpus Pizza';
+  title: string = 'Chirpus Pizza';
   menu: MenuItem[] = [
     {
       item: 'Chicken Fingers',
