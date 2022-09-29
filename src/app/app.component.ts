@@ -7,10 +7,10 @@ import { MenuItem } from './menu-item';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Chirpus Pizza';
+  title: string = 'Chirpus Pizza';
   item1: MenuItem = {
-    item: 'Chicken Fingers',
-    category: 'Dinner',
+    item: 'chicken fingers',
+    category: 'dinner',
     price: 11.99,
   };
   item2: MenuItem = { item: 'pizza', category: 'dinner', price: 11.99 };
