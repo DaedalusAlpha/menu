@@ -7,8 +7,8 @@
     <th>Price</th>
   </tr>
   <tr *ngFor="let menuItem of menu">
-    <td>{{ menuItem.item }}</td>
-    <td>{{ menuItem.category }}</td>
+    <td>{{ menuItem.item | titlecase }}</td>
+    <td>{{ menuItem.category | titlecase }}</td>
     <td>{{ menuItem.price | currency }}</td>
   </tr>
 </table>
